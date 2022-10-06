@@ -19,7 +19,7 @@ public class ImageFrame extends JFrame {
         ImageComponent component = new ImageComponent(imageUrl);
 
         setSize(component.getWidth(), component.getHeight());
-        setTitle("A Dog");
+        setTitle("A Random Dog");
 
         add(component);
         getContentPane().validate();
